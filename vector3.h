@@ -19,7 +19,7 @@ public:
     //Vector addition
     friend Vector3& operator+(const Vector3& LHS, const Vector3& RHS);
     //Scalar amplification
-    friend Vector3& operator*(const Vector3& inVector, cosnt int amp);
+    friend Vector3& operator*(const Vector3& inVector, const int amp);
     //Dot product
     friend int operator*(const Vector3& vectA, const Vector3& vectB);
     //Cross product
