@@ -20,8 +20,8 @@ public:
     //Cross product
     friend Matrix4& operator*(const Matrix4& matA, const Matrix4& matB);
     //Get cell value at row col
-    friend float& operator()(const int& row, const int& col); //For some reason no friend keyword allows the overload
-    friend float operator()(const int& row, const int& col) const;
+    float& operator()(const int& row, const int& col); //For some reason no friend keyword allows the overload
+    float operator()(const int& row, const int& col) const;
 
 private:
 };
